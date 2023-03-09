@@ -22,5 +22,5 @@ img배치는 많이 사용하는 기술이기에 꾸준히 연습해나갈 예�
 
 **[img 정리 notion]**
 
-https://www.notion.so/img-a955b0363f2b48c9b265f187cd08885f
+https://www.notion.so/img-a955b0363f2b48c9b265f187cd08885f <br>
 https://www.notion.so/6fef048d3a1c4b77870080adb2669902

@@ -1,0 +1,91 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  font-size: 10px;
+}
+ul {
+  list-style: none;
+}
+
+:root {
+  --thumb-padding: 1.5rem;
+}
+
+/* 가이드라인 */
+article,
+.thumb-inner,
+.thumb-inner > .thumb-img,
+.thumb-text {
+  /* border: 1px solid red; */
+}
+
+section {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(500px, 1fr));
+  gap: 0.5rem;
+}
+
+article {
+  border: 1px solid rgb(183, 183, 183);
+  height: 400px;
+  margin-bottom: 0.5rem;
+  border-radius: var(--thumb-padding);
+  overflow: hidden;
+  /* width: 500px; */
+  display: flex;
+  flex-direction: column;
+}
+
+.thumb-inner {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: var(--thumb-padding);
+  background: url(./img/3ab783aa36f4a1fd2a3e1d537dab5684.jpg) no-repeat center;
+}
+h2 {
+  font-size: 1.5rem;
+  width: 12rem;
+}
+
+.thumb-inner > .thumb-img {
+  width: 15rem;
+  border-radius: 1rem;
+  overflow: hidden;
+}
+
+.thumb-inner > .thumb-img > img {
+  width: 100%;
+  object-fit: cover;
+}
+
+.thumb-text {
+  height: 100%;
+  padding: var(--thumb-padding);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.thumb-text > ul {
+  display: flex;
+  justify-content: center;
+}
+
+.thumb-text > ul > li {
+  margin-right: 0.5rem;
+  padding: 0.2rem;
+  background-color: #f2e9fa;
+  color: #8836d8;
+  font-size: 0.9rem;
+  font-weight: bold;
+}
+
+.thumb-text > p {
+  font-size: 1.5rem;
+  width: 22rem;
+  margin-top: 1rem;
+}

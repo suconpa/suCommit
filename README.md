@@ -12,6 +12,7 @@
 2. :root를 사용하여 적절하게 사용해주면 클라이언트가 수정을 요구해도 한 번에 수정할 수 있다는것을 배웠습니다.
 3. gird에 repeat(), auto-fit,fill속성들에 대하여 많이 헷갈렸는데 노션에 fit과 fill의 차이
 를 정리하였고 repeat에 minmax를 사용하면 제작하기 수월해진다는 것을 느꼇습니다.
+
 grid 정리 url
 My notion grid <https://www.notion.so/grid-39774395e71f448bbb00553fb5f03066>
 

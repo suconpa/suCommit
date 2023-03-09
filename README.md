@@ -22,5 +22,7 @@ img에 대하여 많은 공부를 하였지만 고정비율값과 layout배치�
 img배치는 많이 사용하는 기술이기에 꾸준히 연습해나갈 예정입니다.
 
 img 정리 url
+
 https://www.notion.so/img-a955b0363f2b48c9b265f187cd08885f
+
 https://www.notion.so/6fef048d3a1c4b77870080adb2669902

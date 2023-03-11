@@ -14,7 +14,7 @@
 3. gird에 repeat(), auto-fit,fill속성들에 대하여 많이 헷갈렸는데 노션에 fit과 fill의 차이
 를 정리하였고 repeat에 minmax를 사용하면 제작하기 수월해진다는 것을 느꼇습니다.
 
-**[grid 정리 notion]** (https://www.notion.so/grid-39774395e71f448bbb00553fb5f03066)
+**[grid 정리 notion]** <br> (https://www.notion.so/grid-39774395e71f448bbb00553fb5f03066)
 
 ### 부족했던 점
 img에 대하여 많은 공부를 하였지만 고정비율값과 layout배치에 대해선 아직 어려운 점이 많은것 같다 느꼈습니다.

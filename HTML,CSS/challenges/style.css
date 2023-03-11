@@ -1,0 +1,44 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+/*  body에 background를 줄 경우 해당 요소 content 크기가 아닌 화면 전체를 기준으로 들어가게 된다. 뷰포트 기준으로 적용하고 싶다면 background-attachment: fixed를 사용하자 */
+
+body {
+  background: url(./images/bg.png) no-repeat center/cover;
+  background-attachment: fixed;
+}
+
+article {
+  width: 300px;
+  margin: 150px auto;
+}
+
+section > article > .animal-img {
+  padding: 150px;
+  background-image: url(./images/animal09.png);
+  background-repeat: no-repeat;
+  background-position: top;
+}
+
+section > article > .grass-img {
+  padding: 25px;
+  background: url(./images/green.png) no-repeat center/cover;
+}
+
+section > article > .text-wrap {
+  background-color: #93572e;
+  color: #fff;
+  padding: 20px;
+}
+
+section > article > .text-wrap > h1.title {
+  font-size: 35px;
+}
+
+section > article > .text-wrap > h1.title + p {
+  padding: 10px 0;
+  word-break: keep-all;
+  opacity: 0.7;
+}

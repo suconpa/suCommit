@@ -1,11 +1,8 @@
 # suCommit START!!
 
-## 카드 UI 만들기
-* padding-top사용 
-
 
 ## [20230309]카페24카드UI 만들기
-* 사용한 css: grid,flex,root
+* 공부한 css: grid,flex,root
 
 ### 배운 점
 1. flex,grid를 같이 쓰면 반응형 페이지를 비교적 쉽게 제작할 수 있다는 것과 width가 줄어들 때 가운데 정렬이 중요하다는 것을
@@ -29,7 +26,7 @@ https://www.notion.so/6fef048d3a1c4b77870080adb2669902
 
 
 ## [20230311] fox카드만들기
-* 사용한 css: background
+* 공부한 css: background
 ### 배운 점
 
 

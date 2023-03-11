@@ -32,10 +32,10 @@ https://www.notion.so/6fef048d3a1c4b77870080adb2669902
 ### 배운 점
 * 사용한 css: background
 
-레이아웃을 짤 때 눈에 보이는 높이가 있다면 무조건 height속성을 적용시켰습니다.
-하지만 웹사이트의 내용은 줄어들거나 늘어나는 가변적인 경우가 많습니다.
-무작정 미디어쿼리를 사용하여 사이트의 width, height를 조정하기보단 padding,margin을 적절하게 사용하여
-사이트를 제작하면 height가 content요소 크기에 따라 늘어나고 줄어날 수 있다는것을 배웠습니다.
+레이아웃을 짤 때 눈에 보이는 높이가 있다면 무조건 height속성을 적용시켰습니다.<br>
+하지만 웹사이트의 내용은 줄어들거나 늘어나는 가변적인 경우가 많습니다.<br>
+무작정 미디어쿼리를 사용하여 사이트의 width, height를 조정하기보단 padding,margin을 적절하게 사용하여<br>
+사이트를 제작하면 height가 content요소 크기에 따라 늘어나고 줄어날 수 있다는것을 배웠습니다.<br>
 앞으로 사이트를 제작할 땐 사용자의 환경을 고려하여 제작해야한다는 것을 생각하며 마크업을 진행하겠습니다. <br>
 **[background 정리 notion]**  <br>
 https://www.notion.so/background-ef4b3a7a20884d769656d642f5275a5b

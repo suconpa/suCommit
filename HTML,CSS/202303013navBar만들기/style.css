@@ -1,0 +1,108 @@
+@import url("https://fonts.googleapis.com/css2?family=Nanum+Gothic:wght@400;700;800&display=swap");
+
+body {
+  font-family: "Nanum Gothic", sans-serif;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+a {
+  color: #fff;
+  text-decoration: none;
+}
+
+.navbar {
+  /* box-shadow: inset 0px 0px 3px 1px rgb(0, 38, 255); */
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background: #263343;
+  padding: 1rem 2rem;
+}
+
+.navbar-logo {
+  font-size: 1.5rem;
+  color: rgb(216, 202, 0);
+}
+
+.navbar_menu {
+  display: flex;
+  list-style: none;
+  /* box-shadow: inset 0px 0px 3px 1px rgb(0, 38, 255); */
+  padding-left: 0;
+  font-weight: bold;
+}
+
+.navbar_menu > li {
+  padding: 1rem 1rem;
+}
+
+.navbar_menu > li:hover {
+  background-color: rgb(216, 202, 0);
+  border-radius: 4px;
+}
+
+.navbar_menu > li {
+  display: block;
+}
+
+.navbar-icons {
+  list-style: none;
+  color: #fff;
+  display: flex;
+}
+
+.navbar-icons > li {
+  padding: 1rem;
+}
+
+.navbar-toggleBut {
+  display: block;
+  position: absolute;
+  right: 2rem;
+  font-size: 1.4rem;
+  display: none;
+}
+
+/* 768이하일 때 바뀔 css 속성들 */
+
+@media screen and (max-width: 768px) {
+  body {
+    font-size: 14px;
+  }
+  .navbar {
+    flex-direction: column;
+    align-items: flex-start;
+  }
+
+  .navbar_menu {
+    flex-direction: column;
+    width: 100%;
+    align-items: center;
+    display: none;
+  }
+
+  .navbar_menu > li {
+    width: 100%;
+    text-align: center;
+  }
+
+  .navbar-icons {
+    width: 100%;
+    justify-content: center;
+    display: none;
+  }
+
+  .navbar-toggleBut {
+    display: block;
+  }
+
+  /* js처리 */
+  .navbar_menu.active,
+  .navbar-icons.active {
+    display: flex;
+  }
+}

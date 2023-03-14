@@ -40,7 +40,7 @@ https://www.notion.so/6fef048d3a1c4b77870080adb2669902
 https://www.notion.so/background-ef4b3a7a20884d769656d642f5275a5b
 
 
-## [202303013] navBar만들기
+## [202303014] navBar만들기
 * 공부한 내용 : JS toggle
 
 JSToggle 메서드를 사용하면 class name을 생성 했다 지웠다 할 수 있어서 특성 상황에서만 해당 태그의 css가 보이게 설정할 수 있습니다.
